@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <form action="https://formspree.io/lukaszjankowsky@gmail.com" method="POST">
+        <label for="name">Imię:
+            <input type="text" name="name" id="name" tabindex="1">
+        </label>
+        <br><br>
+        <label>Nazwisko: <input type="text" name="surname" tabindex="2">
+        </label>
+        <br><br>
+        <label>Mail:
+            <input type="email" name="email" tabindex="3">
+        </label>
+
+        <br><br>
+        <label for="city">Miasto:
+            <select name="city" id="city" tabindex="4">
+                <option value="text">Kraków</option>
+                <option value="text">Warszawa</option>
+                <option value="text">Gdańsk</option>
+            </select>
+        </label>
+        <br><br> Płeć:
+        <br>
+        <label>
+            <input type="radio" name="plec" value="Kobieta"> Kobieta
+        </label>
+        <label>
+            <input type="radio" name="plec" value="Mezczyzna"> Męczyzna
+        </label>
+        <br><br>
+        <input type="checkbox" id="agreement" required> <label for="agreement">Zgoda na dane osobowe</label>
+        <br><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Wyślij formularz">
+
+    </form>
+
+</body>
+
+</html>
